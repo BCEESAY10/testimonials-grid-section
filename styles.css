@@ -30,11 +30,19 @@ html{
 body{
     font-family: "Barlow Semi Condensed", san-serif;
     background: var(--gray-100);
-    padding: clamp(2rem, 2vw, 2rem); 
+    padding: clamp(4rem, 2vw, 2rem) clamp(2rem, 2vw, 2rem); 
 }
 
 .container{
     width: 100%;
+    display: grid;
+    gap: 1.5em;
+}
+
+p{
+    margin: 1em 0;
+    font-size: 1.2em;
+    font-weight: var(--font-bold);
 }
 
 .container > article{
@@ -67,21 +75,34 @@ body{
 }
 
 .container .daniel{
+    background: var(--purple-500);
+    color: var(--white);
+}
+.container .daniel h1, h2, .container .patrick h1, h2, .container .jonathan h1, h2{
+    color: var(--gray-200);
+}
+.container .daniel blockquote, .container .patrick blockquote, .container .jonathan blockquote{
+    color: var(--gray-100);
+}
 
+.container .daniel img, .container .patrick img{
+    border: 1px solid var(--purple-300);
 }
 
 .container .jonathan{
-
+    background: var(--gray-500);
+    color: var(--white);
 }
 
-.container .jeanette{
-
+.container .jeanette, .container .kira{
+    background: var(--white);
+    color: var(--gray-400);
+}
+.container .jeanette h2, .container .kira h2{
+    color: var(--gray-300);
 }
 
 .container .patrick{
-
-}
-
-.container .kira{
-
+    background: var(--dark-blue);
+    color: var(--white);
 }
