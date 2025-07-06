@@ -41,6 +41,29 @@ body{
     box-shadow: 1px 1px 8px var(--gray-200);
     width: 100%;
     padding: clamp(1.5rem, 2vw, 2rem);
+    border-radius: 0.5em;
+}
+
+.container article figure{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.container article figure img{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+
+.container article figure h1{
+    font-size: 1em;
+    font-weight: var(--font-bold);
+}
+
+.container article figure h2{
+    font-size: 0.9em;
+    font-weight: var(--font-semibold);
 }
 
 .container .daniel{
