@@ -123,12 +123,37 @@ Desktop Responsiveness
     }
     .container{
         max-width: 80vw;
+        display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-    .container > article{
-        height: 18em;
-        overflow: hidden;
+
+    .container .daniel{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column: span 2;
+    }
+
+    .container .jeanette{
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+
+    .container .patrick{
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-column: span 2;
+    }
+
+    .container .jonathan{
+        grid-row-start: 1;
+        grid-column-start: 3;
+    }
+
+    .container .kira{
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        grid-column-start: 4;
     }
 }
 
