@@ -12,12 +12,19 @@
     --gray-500: hsl(217, 19%, 35%);
     --dark-blue: hsl(219, 29%, 14%);
     --black: hsl(0, 0%, 7%);
+
+    --font-bold: 600;
+    --font-semibold: 500;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    font-size: 81.25%; /*This is equivalent to 13px */
 }
 
 body{
