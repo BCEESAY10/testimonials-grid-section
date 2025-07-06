@@ -29,4 +29,10 @@ html{
 
 body{
     font-family: "Barlow Semi Condensed", san-serif;
+    background: var(--gray-100);
+    padding: clamp(2rem, 2vw, 2rem); 
+}
+
+.container{
+    width: 100%;
 }
