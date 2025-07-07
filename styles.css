@@ -1,112 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-:root{
-    --purple-50: hsl(260, 100%, 95%);
-    --purple-300: hsl(264, 82%, 80%);
-    --purple-500: hsl(263, 55%, 52%);
+:root {
+  --purple-50: hsl(260, 100%, 95%);
+  --purple-300: hsl(264, 82%, 80%);
+  --purple-500: hsl(263, 55%, 52%);
 
-    --white: hsl(0, 0%, 100%);
-    --gray-100: hsl(214, 17%, 92%);
-    --gray-200: hsl(0, 0%, 81%);
-    --gray-400: hsl(224, 10%, 45%);
-    --gray-500: hsl(217, 19%, 35%);
-    --dark-blue: hsl(219, 29%, 14%);
-    --black: hsl(0, 0%, 7%);
+  --white: hsl(0, 0%, 100%);
+  --gray-100: hsl(214, 17%, 92%);
+  --gray-200: hsl(0, 0%, 81%);
+  --gray-400: hsl(224, 10%, 45%);
+  --gray-500: hsl(217, 19%, 35%);
+  --dark-blue: hsl(219, 29%, 14%);
+  --black: hsl(0, 0%, 7%);
 
-    --font-bold: 600;
-    --font-semibold: 500;
+  --font-bold: 600;
+  --font-semibold: 500;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 81.25%; /*This is equivalent to 13px */
+html {
+  font-size: 81.25%; /*This is equivalent to 13px */
 }
 
-body{
-    font-family: "Barlow Semi Condensed", sans-serif;
-    background: var(--gray-100);
-    padding: clamp(4rem, 2vw, 2rem) clamp(2rem, 2vw, 2rem); 
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: var(--gray-100);
+  padding: clamp(4rem, 2vw, 2rem) clamp(2rem, 2vw, 2rem);
 }
 
-.container{
-    width: 100%;
-    display: grid;
-    gap: 1.5em;
+.container {
+  width: 100%;
+  display: grid;
+  gap: 1.5em;
 }
 
-p{
-    margin: 1em 0;
-    font-size: 1.2em;
-    font-weight: var(--font-bold);
+p {
+  margin: 1em 0;
+  font-size: 1.2em;
+  font-weight: var(--font-bold);
 }
 
-.container > article{
-    box-shadow: 1px 1px 8px var(--gray-200);
-    width: 100%;
-    padding: clamp(1.5rem, 2vw, 2rem);
-    border-radius: 0.5em;
+.container > article {
+  box-shadow: 1px 1px 8px var(--gray-200);
+  width: 100%;
+  padding: clamp(1.5rem, 2vw, 2rem);
+  border-radius: 0.5em;
 }
 
-.container article figure{
-    display: flex;
-    align-items: center;
-    gap: 1.5em;
+.container article figure {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
 }
 
-.container article figure img{
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
+.container article figure img {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
 }
 
-.container article figure h1{
-    font-size: 1em;
-    font-weight: var(--font-bold);
+.container article figure h1 {
+  font-size: 1em;
+  font-weight: var(--font-bold);
 }
 
-.container article figure h2{
-    font-size: 0.9em;
-    font-weight: var(--font-semibold);
+.container article figure h2 {
+  font-size: 0.9em;
+  font-weight: var(--font-semibold);
 }
 
-.container .daniel{
-    background: var(--purple-500);
-    color: var(--white);
+.container .daniel {
+  background: var(--purple-500);
+  color: var(--white);
 }
-.container .daniel h1, h2, .container .patrick h1, h2, .container .jonathan h1, h2{
-    color: var(--gray-200);
+.container .daniel h1,
+.container .daniel h2,
+.container .patrick h1,
+.container .patrick h2,
+.container .jonathan h1,
+.container .jonathan h2 {
+  color: var(--gray-200);
 }
-.container .daniel blockquote, .container .patrick blockquote, .container .jonathan blockquote{
-    color: var(--gray-100);
-}
-
-.container .daniel img, .container .patrick img{
-    border: 1px solid var(--purple-300);
-}
-
-.container .jonathan{
-    background: var(--gray-500);
-    color: var(--white);
+.container .daniel blockquote,
+.container .patrick blockquote,
+.container .jonathan blockquote {
+  color: var(--gray-100);
 }
 
-.container .jeanette, .container .kira{
-    background: var(--white);
-    color: var(--gray-400);
-}
-.container .jeanette h2, .container .kira h2{
-    color: var(--gray-300);
+.container .daniel img,
+.container .patrick img {
+  border: 1px solid var(--purple-300);
 }
 
-.container .patrick{
-    background: var(--dark-blue);
-    color: var(--white);
+.container .jonathan {
+  background: var(--gray-500);
+  color: var(--white);
 }
 
+.container .jeanette,
+.container .kira {
+  background: var(--white);
+  color: var(--gray-400);
+}
+.container .jeanette h2,
+.container .kira h2 {
+  color: var(--gray-300);
+}
+
+.container .patrick {
+  background: var(--dark-blue);
+  color: var(--white);
+}
 
 /* 
 -----------------------------
@@ -114,46 +123,45 @@ Desktop Responsiveness
 -----------------------------
   */
 
-@media screen and (min-width: 48rem){
-    body{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
-    .container{
-        max-width: 80vw;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
+@media screen and (min-width: 48rem) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .container {
+    max-width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 
-    .container .daniel{
-        grid-row-start: 1;
-        grid-column-start: 1;
-        grid-column-end: span 2;
-    }
+  .container .daniel {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
 
-    .container .jeanette{
-        grid-row-start: 2;
-        grid-column-start: 1;
-    }
+  .container .jeanette {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
 
-    .container .patrick{
-        grid-row-start: 2;
-        grid-column-start: 2;
-        grid-column-end: span 2;
-    }
+  .container .patrick {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+  }
 
-    .container .jonathan{
-        grid-row-start: 1;
-        grid-column-start: 3;
-    }
+  .container .jonathan {
+    grid-row-start: 1;
+    grid-column-start: 3;
+  }
 
-    .container .kira{
-        grid-row-start: 1;
-        grid-row-end: span 2;
-        grid-column-start: 4;
-    }
+  .container .kira {
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 4;
+  }
 }
-
