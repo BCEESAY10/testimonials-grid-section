@@ -28,7 +28,7 @@ html{
 }
 
 body{
-    font-family: "Barlow Semi Condensed", san-serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     background: var(--gray-100);
     padding: clamp(4rem, 2vw, 2rem) clamp(2rem, 2vw, 2rem); 
 }
