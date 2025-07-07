@@ -114,7 +114,7 @@ Desktop Responsiveness
 -----------------------------
   */
 
-@media screen and (min-width: 740px){
+@media screen and (min-width: 48rem){
     body{
         display: flex;
         align-items: center;
