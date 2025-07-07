@@ -131,7 +131,7 @@ Desktop Responsiveness
     .container .daniel{
         grid-row-start: 1;
         grid-column-start: 1;
-        grid-column: span 2;
+        grid-column-end: span 2;
     }
 
     .container .jeanette{
@@ -142,7 +142,7 @@ Desktop Responsiveness
     .container .patrick{
         grid-row-start: 2;
         grid-column-start: 2;
-        grid-column: span 2;
+        grid-column-end: span 2;
     }
 
     .container .jonathan{
